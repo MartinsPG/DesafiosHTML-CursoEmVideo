@@ -12,11 +12,11 @@
     </style>
   </head>
   <body>
-    <form action="cadastro.c#" autocomplete="off" 
+    <form action="cadastro.php" autocomplete="on" 
     method="post">
       <h1>Meu primeiro formulário</h1>
-      <p><label for="iname">Nome:</label> <input type="text" name="name" id="iname" /></p>
-      <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" /></p>
+      <p><label for="iname">Nome:</label> <input type="text" name="name" id="iname" required minlength="5" maxlength="15"/></p>
+      <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" required/></p>
       <input type="submit" value="Enviar" />
     </form>
   </body>
