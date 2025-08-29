@@ -1,0 +1,15 @@
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\bin\Debug\net8.0\aulas.exe
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\bin\Debug\net8.0\aulas.deps.json
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\bin\Debug\net8.0\aulas.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\bin\Debug\net8.0\aulas.dll
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\bin\Debug\net8.0\aulas.pdb
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.sourcelink.json
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.dll
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\refint\aulas.dll
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.pdb
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\aulas.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\DesafiosHTML-CursoEmVideo\logicaDeProgramacao\aulas\obj\Debug\net8.0\ref\aulas.dll
