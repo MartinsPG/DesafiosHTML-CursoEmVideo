@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 
 /*
 class Program
@@ -89,7 +90,7 @@ class Dirigir
 */
 
 // Aluno aprovado ou reprovado? média 7
-
+/*
 class Aluno
 {
     static void Main()
@@ -110,3 +111,243 @@ class Aluno
         }
     }
 }
+*/
+
+
+/*
+// Aproveitamento do aluno
+class AproveitamentpAluno
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite a primeira nota: ");
+        var pnota = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Digite a segunda nota: ");
+        var snota = Convert.ToDouble(Console.ReadLine());
+
+        var media = Convert.ToDouble((pnota + snota) / 2);
+        Console.WriteLine("MÉDIA: " + media);
+        
+        switch (media)
+        {
+            case >= 9 and <= 10:
+                Console.WriteLine("Aproveitamento: A");
+                break;
+            case >= 8 and < 9:
+                Console.WriteLine("Aproveitamento: B");
+                break;
+            case >= 7 and < 8:
+                Console.WriteLine("Aproveitamento: C");
+                break;
+            case >= 6 and < 7:
+                Console.WriteLine("Aproveitamento: D");
+                break;
+            case >= 5 and < 6:
+                Console.WriteLine("Aproveitamento: E");
+                break;
+            case < 5:
+                Console.WriteLine("Aproveitamento: F");
+                break;
+        }
+    }
+}
+*/
+
+
+
+/*
+// Laços de repetição de 0 à 10
+class LacoRep
+{
+    static void Main()
+    {
+        var contador = 0;
+        while (contador <= 10)
+        {
+            Console.WriteLine(contador);
+            contador = contador + 1;
+        }
+        Console.WriteLine("Terminei de contar");
+    }
+}
+*/
+
+
+
+/*
+// Laços de repetição de 10 à 0
+class LacoRep
+{
+    static void Main()
+    {
+        var contador = 10;
+
+        while (contador > 0)
+        {
+            Console.WriteLine(contador);
+            contador = contador - 1;
+        }
+        Console.WriteLine("Terminei de contar");
+    }
+}
+*/
+
+
+/*
+// Contar até onde o usuario quiser 
+class LacoRep
+{
+    static void Main()
+    {
+        var cUsu = 0;
+        Console.WriteLine("Até qual número voce gostaria de contar?: ");
+        var eUsu = Convert.ToInt32(Console.ReadLine());
+
+        while (cUsu <= eUsu)
+        {
+            Console.WriteLine(cUsu);
+            cUsu = cUsu + 1;
+        }
+    }
+}
+*/
+
+
+/*
+// Laço infinito
+class Teste
+{
+    static void Main()
+    {
+        var cont = 0;
+        while (cont < 1)
+        {
+            Console.WriteLine(cont);
+        }
+    }
+}
+*/
+
+/*
+
+// Contador inteligente 
+ class ContadorInteligente
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite o número inicial: ");
+        var n1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Digite o número final: ");
+        var n2 = Convert.ToInt32(Console.ReadLine());
+
+
+        Console.WriteLine("-----------------");
+        Console.WriteLine("CONTANDO");
+        Console.WriteLine("-----------------");
+        if ( n1  <= n2 )
+        {
+            while (n1 <= n2)
+            {
+                Console.WriteLine(n1 + "..");
+                n1 = n1 + 1;
+            }
+        }
+        else
+        {
+             while (n1 >= n2)
+            {
+                Console.WriteLine(n1 + "..");
+                n1 = n1 - 1;
+            }
+        }
+    }
+}
+*/
+
+
+/*
+// Repita 
+class Repita
+{
+    static void Main()
+    {
+        int cont = 1;
+        do
+        {
+            Console.WriteLine(cont);
+            cont = cont + 1;
+        } while (cont <= 10);
+    }
+}
+*/
+
+
+
+/*
+// Tabuada 
+class Tabuada
+{
+    static void Main()
+    {
+        Console.WriteLine("Qual tabuada você quer? ");
+        var tab = Convert.ToInt32(Console.ReadLine());
+        int cont = 0;
+        do
+        {
+            var result = tab * (cont + 1);
+            cont = cont + 1;
+            Console.WriteLine(tab + " x " + cont + " = " + result);
+        } while (cont < 10);
+    }
+}
+*/
+
+
+
+/*
+// Super Contador 
+class SupCont
+{
+    static void Main()
+    {
+        {
+            Console.WriteLine("==================");
+            Console.WriteLine("Menu");
+            Console.WriteLine("==================");
+            Console.WriteLine("[1] De 1 até 10");
+            Console.WriteLine("[2] De 10 até 1");
+            Console.WriteLine("[3] Sair");
+            Console.WriteLine("==================");
+
+            var esq = Convert.ToInt32(Console.ReadLine());
+
+            if (esq == 1)
+            {
+                var cont = 0;
+                do
+                {
+                    cont = cont + 1;
+                    Console.WriteLine(cont);
+                } while (cont < 10);
+            }
+            else if (esq == 2)
+            {
+                var cont = 11;
+                do
+                {
+                    cont = cont - 1;
+                    Console.WriteLine(cont);
+                } while (cont > 0);
+            }
+            else if (esq == 3)
+            {
+                Console.WriteLine("Tchau, tchau!");
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida.");
+            }
+        }
+    }
+}
+*/
