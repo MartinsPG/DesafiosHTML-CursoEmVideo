@@ -228,8 +228,8 @@ class Teste
 }
 */
 
-/*
 
+/*
 // Contador inteligente 
  class ContadorInteligente
 {
@@ -350,4 +350,53 @@ class SupCont
         }
     }
 }
+*/
+
+/*
+// Funções
+int Somar(int num1, int num2)
+{
+    int resultado = num1 + num2;
+    return resultado;
+}
+
+int minhaSoma = Somar(5, 5);
+Console.WriteLine(minhaSoma);
+
+
+void BoasVindas(string nome)
+{
+    Console.WriteLine("Seja bem-vindo(a), " + nome + "!");
+}
+
+Console.WriteLine("Qual o seu nome? ");
+var myName = Console.ReadLine();
+BoasVindas(myName);
+
+*/
+
+//Exercícios de função
+/*
+void Saudacao()
+{
+    Console.WriteLine("Olá, Mundo da programação!");
+}
+
+Saudacao();
+*/
+
+// Soma com input do usuário
+/*
+int CalcularSoma(int n1, int n2)
+{
+    int soma = n1 + n2;
+    return soma;
+}
+
+Console.WriteLine("Digite um número: ");
+var number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite outro número: ");
+var number2 = Convert.ToInt32(Console.ReadLine());
+var result = CalcularSoma(number1, number2);
+Console.WriteLine("A soma dos numeros é: " + result);
 */
